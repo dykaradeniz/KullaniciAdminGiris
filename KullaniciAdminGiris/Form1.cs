@@ -67,6 +67,7 @@ namespace KullaniciAdminGiris
                     {
                         FrmKullaniciEkran kullaniciEkran = new FrmKullaniciEkran();
                         kullaniciEkran.Show();
+                        //github denemesi
                     }
                     else 
                     {
@@ -91,6 +92,11 @@ namespace KullaniciAdminGiris
             Ekran();
             tbxKullanici.Clear();
             tbxSifre.Clear();
+        }
+
+        private void FrmAna_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
